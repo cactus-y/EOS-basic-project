@@ -64,7 +64,7 @@ public class MainTodoAdapter extends RecyclerView.Adapter<MainTodoViewHolder> {
                     public void onClick(DialogInterface dialog, final int position) {
                         switch(items[position]){
                             case "수정":
-                                final AlertDialog.Builder edit = new AlertDialog.Builder(builder.getContext());
+                                /*final AlertDialog.Builder edit = new AlertDialog.Builder(builder.getContext());
                                 final EditText input = new EditText(builder.getContext());
                                 edit.setTitle("Edit Item");
                                 edit.setView(input);
@@ -81,7 +81,7 @@ public class MainTodoAdapter extends RecyclerView.Adapter<MainTodoViewHolder> {
 
                                     }
                                 });
-                                edit.show();
+                                edit.show();*/
                                 break;
                             case "삭제":
                                 itemList.remove(temp);
